@@ -26,7 +26,7 @@ class UserController {
         path: "/",
       });
 
-      res.status(200).json({message: "login ta certinho cpx"});
+      res.status(200).json({message: "login ta funcioando"});
     } catch (error) {
       res.status(404).json({ message: error.message });
     }
